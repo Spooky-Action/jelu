@@ -1,0 +1,74 @@
+html, body{
+  margin :0;
+  
+}
+
+
+header{
+  margin :0;
+
+  border-bottom: 1px solid #000;
+}
+
+
+ header > div{
+    color : white;
+    text-align: center;
+    width : 300px;
+     margin :10px auto;
+ }
+#triangle {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid red;
+    }
+
+footer{
+margin-top : -30px;
+	text-align: center;
+	color : #FFF;
+	line-height: 80px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.form-container{
+  background-color: #ffffff;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  width: 500px;
+  margin: 10px auto;
+  padding: 30px 40px;
+}
+*{
+  font-family:  Helvetica, sans-serif;
+}
+table{
+  width:1200px;
+  margin: 15px auto;
+}
+thead >tr> th{
+  color : #fff ;
+  background-color: tomato;
+}
+tr,
+td{
+  background-color: #fff;
+}
+tr>td>a:link,
+tr>td>a:visited,
+tr>td>a:active{
+  text-decoration: none;
+  color: #333;
+}
+tr>td>a:hover{
+  color: tomato;
+}
+
+tr:nth-child(even){
+  background-color: lightgray;
+}
